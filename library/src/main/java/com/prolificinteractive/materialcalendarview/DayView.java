@@ -59,10 +59,10 @@ class DayView extends AppCompatCheckedTextView {
 
         setSelectionColor(this.selectionColor);
 
-        setGravity(Gravity.CENTER);
+        setGravity(Gravity.TOP);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            setTextAlignment(TEXT_ALIGNMENT_CENTER);
+            setTextAlignment(TEXT_ALIGNMENT_VIEW_START);
         }
 
         setDay(day);
